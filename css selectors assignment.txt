@@ -1,0 +1,64 @@
+
+
+1. **Which element is targeted by the selector `.highlight`?**
+   a)<div class="box highlight">Box 2</div>`
+
+2. **What element will the selector `#unique` apply to?**
+   b) None 
+
+3. **Which element is selected by the selector `p`?**
+   c)** `<p>This is a sample document.</p>`
+
+4. **Which element is targeted by the selector `.container .box`?**
+   c)** All `.box` elements within `.container`
+
+5. **What does the selector `.container > .box` select?**
+   a)** Direct children `.box` elements of `.container`
+
+6. **Which element is selected by the selector `.box + .box`?**
+   b)** The second and third `.box` elements (any `.box` element that immediately follows another `.box` element)
+
+7. **What element does the selector `div span` apply to?**
+   c)** Both `<span>` elements inside any `<div>`
+
+8. **Which element is selected by the selector `.item:first-child`?**
+   a)** `<li class="item">Item 1</li>`
+
+9. **What element is targeted by the selector `.item:last-child`?**
+   c)** `<li class="item">Item 3</li>`
+
+10. **Which element is selected by the selector `#main .item:nth-child(2)`?**
+    b)** `<li class="item">Item 2</li>`
+
+11. **What does the selector `h1.title` select?**
+    a)** `<h1 class="title">Welcome</h1>`
+
+12. **Which element is targeted by the selector `div > .container`?**
+    b)** `<div class="container">`
+
+13. **Which elements are targeted by the selector `ul > .item`?**
+    d)** None 
+
+14. **What does the selector `#main p` select?**
+    b)** `<p>This is a sample document.</p>`
+
+15. **Which element is selected by the selector `.container .box.highlight`?**
+    b)** The second `.box` element inside `.container` 
+
+16. **Which element is targeted by the selector `span.highlight`?**
+    c)** `<span class="highlight">Highlighted Text</span>`
+
+17. **What does the selector `#main > h1` select?**
+    a)** `<h1 class="title">Welcome</h1>` 
+
+18. **Which element is selected by the selector `ul li.item:nth-child(odd)`?**
+    a)** `<li class="item">Item 1</li>` and `<li class="item">Item 3</li>`
+
+19. **Which elements are selected by the selector `.container > .box.highlight`?**
+    b)** The second `.box` element inside `.container` 
+
+20. **Which element does the selector `#main span` apply to?**
+    c)** `<span class="highlight">Highlighted Text</span>` and `<span>Normal Text</span>`
+
+21. **Which element is selected by the selector `.highlight ~ span`?**
+    b)** All `<span>` elements after the highlighted element 
