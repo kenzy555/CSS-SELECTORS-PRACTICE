@@ -1,0 +1,4 @@
+/* Underline all list items */
+li {
+    text-decoration: underline;
+  }

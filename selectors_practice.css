@@ -1,0 +1,15 @@
+/* Change the text color of all paragraphs with the class "description" to blue */
+.description {
+    color: blue;
+  }
+  
+  /* Set the background color of the element with the ID "intro-text" to light gray */
+#intro-text {
+    background-color: lightgray;
+  }
+
+  /* Make all h1 elements bold */
+  h1 {
+    font-weight: bold;
+  }
+  
